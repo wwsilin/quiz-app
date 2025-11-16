@@ -42,7 +42,7 @@ func loadQuestions(filename string) ([]Question, error) {
 	defer file.Close()
 
 	reader := csv.NewReader(bufio.NewReader(file))
-	reader.Comma = ','
+	reader.Comma = ';'
 	reader.LazyQuotes = true
 	reader.FieldsPerRecord = -1
 
