@@ -1,0 +1,16 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+.card {
+  border-radius: 12px;
+}
+.form-check {
+  margin-bottom: 0.8rem;
+}
+#timer {
+  font-weight: bold;
+  color: #0d6efd;
+}
+.answer-item {
+  background: #f8f9fa;
+}
