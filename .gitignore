@@ -21,3 +21,4 @@ quiz.log
 .DS_Store
 Thumbs.db
 deploy_to_github.sh
+deploy_to_github.sh
